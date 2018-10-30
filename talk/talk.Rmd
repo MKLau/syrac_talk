@@ -8,7 +8,7 @@ output:
     colortheme: "seagull"
     fonttheme: "structurebold"
 header-includes:
-  - \titlegraphic{\includegraphics[width=0.4\paperwidth]{./hf_header.png}}
+  - \titlegraphic{\includegraphics[width=0.4\paperwidth]{./img/hf_header.png}}
 ---
 
 <!-- 29October2018 -->
