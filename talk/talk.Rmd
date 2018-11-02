@@ -39,7 +39,9 @@ header-includes:
 - "A scientist, a reviewer and an editor walk into a bar..."
 - Crosas, White et al., Poisot, Marwick
 
-3. Tools for improving benefaction not just reproducibility (15 min)
+3. Tools and resources for improving benefaction not just reproducibility (15 min)
+
+
 
 *ReproSci Top 10 Checklist*
 
@@ -65,6 +67,7 @@ header-includes:
 - Capsules (Code Ocean, ReproZip, encapsulator)
 - Literate programming (Rmarkdown, Jupyter, OverLeaf, RStudio)
 - Leaks in the Pipeline: Not recorded information, pseudo-non-determinism
+- ??? (ROSA, CodeDepends, others)
 
 4. Let the computers do the work! (10 min)
 
@@ -90,11 +93,156 @@ intelligently and get them to do the right things for us
 
 ![](img/Baker2016_3.png)
 
-#
+# So, how bad is it, really?
+
+# 
+
+We got one big thing wrong (dietetics) – In the 1950s there was an
+alarming increase in the rates of coronary heart disease in America. A
+prominent scientist argued that this was due to the increase of fats
+in our diet. This view won out. By the 1980s nobody would have come up
+with any other explanation. The US government, in their dietary
+guidelines painted fat as unhealthy and produced guidelines that would
+limit its intake. The American Heart Association agreed. Thus probably
+billions of research dollars were channeled into researching this. In
+the 1960s a number of researchers also suggested that
+carbohydrates/sugars were the cause, but they lost. And only in the
+last decade has this become an acceptable hypothesis again and it
+seems increasingly clear that the increase in carbohydrates in our
+diet (a trend present in the 1950s but actually accelerated by the
+avoidance of fats) is also highly problematic. At least as problematic
+as fat. Evidence on the relative balance is not yet clear, but it is
+at least credible that sugar is much worse for us than fat. The
+definition of an acceptable research agenda, research dollars, and
+public policy were all off target for half a century. Oops.
+
+We got a lot of little things wrong (psychology, medicine) – Insiders
+know this as the reproducibility crisis. In several fields researchers
+decided to devote some effort to actually reproducing previous
+findings rather than always trying to do something novel. And the end
+result has been that very many results, even results that ended up in
+textbooks were not reproducible (rates of over 50% not being
+reproducible). Fivethirtyeight has a nice discussion of this
+crisis. But unlike the dietetics crisis, these results were largely
+one-off types of findings and not necessarily particularly
+interconnected or driven by a an across-the-board agenda. And they
+haven’t particularly driven policy. It might be that the word “little”
+in my subheadings an exaggeration (some of these results got a lot of
+press coverage like the idea of power poses), but the things that
+failed to repeat are certainly not “big” either in the same sense of
+did fat or sugar cause the surge in heart disease deaths or of driving
+an entire research agenda for decades. I think what disconcerts most
+people following this is not the size of the findings being overturned
+but just the sheer volume of them. We rationally expect some reversals
+in science. But we don’t expect more than 50% reversals. This has led
+to a great deal of focus on poor research practices such as post hoc
+hypotheses, p-value hacking, etc.
+
+We paid too much attention to the small stuff (medicine) – Medicine
+like every field focused on p<0.05 as a criterion for publication. But
+eventually people noticed that this was leading to changes in medical
+treatment that, yes p<0.05, but mortality or morbidity was reduced by
+only a few percent. This was basically an effect size problem. This is
+also why you would see coffee is good for you news one week and coffee
+causes cancer the next week – anything with a big sample size (hence
+p<0.05) could get reported no matter how small the effect
+size. Medicine reformed itself (primarily by changes to the
+requirements to publish in journals) and now instead of focusing on
+p-values focuses on effect sizes, usually expressed as odds-ratios,
+and confidence intervals around those odds-ratios. This of course
+still ends up letting one assess statistical significance (is 1.0 in
+the 95% confidence interval of the odds ratio?) but it places the
+focus where it should be on the effect size. Are 50% of patients
+better off or 2%?
+
+We totally missed the big one (economics) – Jeremy has mentioned
+several time that the failure to foresee the 2008-2009 Great Recession
+threw the field of economics into turmoil. As Jeremy has pointed out,
+the creation of a blog culture in economics was one outcome – paper
+publication was too slow for the real-time processing needed to track
+this. The use of preprint servers in economics also upticked for
+reasons of speed. There has also been an increasing focus on empirical
+reality (via econometrics – i.e. analysis of data) and away from
+neoclassical equilibrial theories (the Great Recession was anything
+but a stable equilibrium). Its too early to tell if economics will be
+more nimble (and more able to predict black swans), but at least
+they’re trying.
+
+
+
+# Physics
+
+It took us deaths and a genius to move past a silly idea (physics) –
+throughout the late 1800s physicists watched a beautiful theory, the
+wave theory of light occuring in vibration of an undetectable aether
+that was the fixed firmanent of the universe become increasingly
+untenable. The Michelson-Morley experiments didn’t work. The response
+was to post hoc hypothesize the earth having a boundary layer of
+aether, which kind of defeated the whole point of aether. Or to invent
+Lorentz contractions (which turned out to be right but nobody had any
+idea why they worked). Scientists also found evidence that light
+behaved like a particle (e.g. the photoelectric effect) rather than a
+wave. Despite this growing body of evidence that the aether theory of
+light was wrong, it remained firmly believed and taught. It took 50
+years and the retirement of many senior scientists, plus a genius
+named Einstein to offer an alternative explanation to get back on
+track. This example of clinging to a wrong idea was so egregious (in
+hindsight) that several historians of science have held it up as an
+important case study. But it is hardly alone. It took 70 years for
+geologists to get on board with Wegener’s continental drift
+hypothesis.
+
+
+# Popper and Kuhn
+
+
+# Analytics is playing a significant role
+
+
+
+# Take-home
+
+- There are major issues in reproducibility and even repeatibility
+across science
+- Analytics is playing a significant role
+
+# What can we do?
+
+![](img/ostrich.jpg)
+
+# What can we do? 
+
+- Open-process
+- Open-data
+- Open-software
+
+# Benefaction: the real benefit
+
+# Opportunity: Benefaction not just reproducibility
+
+![](img/colberg_repeat.png){width=70%}
+
+*Colberg et al. 2015 Comm ACM*
+
+# Opportunity: Benefaction not just reproducibility
+
+![](img/colberg_repro.png){width=70%}
+
+*Colberg et al. 2015 Comm ACM*
+
+# Opportunity: Benefaction not just reproducibility
+
+![](img/colberg_benefact.png){width=70%}
+
+*Colberg et al. 2015 Comm ACM*
+
+
+# 
 
 ![](img/pilosof1.png)
 
 <!-- I'm an ecologist -->
+
 
 
 # Motivation: Code in Ecology
@@ -144,31 +292,36 @@ BestPractices(metadata * data * code * results * contact)
 
 $$ Synthesis = f(benefaction) $$
 
-# Opportunity: Benefaction not just reproducibility
 
-![](img/colberg_repeat.png){width=70%}
-
-*Colberg et al. 2015 Comm ACM*
-
-# Opportunity: Benefaction not just reproducibility
-
-![](img/colberg_repro.png){width=70%}
-
-*Colberg et al. 2015 Comm ACM*
-
-# Opportunity: Benefaction not just reproducibility
-
-![](img/colberg_benefact.png){width=70%}
-
-*Colberg et al. 2015 Comm ACM*
-
-
-# Tools: Research Pipeline
+# Research Pipeline
 
 | Thought      | Data Collection            | Data Processing               | Analysis                          | Reporting                  |
 | :---------   | :------------------------- | :---------------------------- | :-------------------------------- | :------------------------- |
 | *Meta-Data*  | *Meta-Data* + *Provenance* | *Provenance* + *Versioning*   | *Versioning* + *Provenance*       | *Lit Prog* + *Versioning*  |
 
+# Reproduciblity Top Three List
+
+1. Don't process your data manually 
+2. Make your pipelines transparent (data, code and notes)
+3. Take credit! 
+
+# Analytical Code Top Three List
+
+1. Follow software best practices
+2. Follow a consistent project architecture
+3. Use version control for code and data
+
+# Resources:
+
+- Databases List
+- Tools List
+- Reproducibility blogs
+- RStudio
+- ROpenSci
+- Transparency in Ecology and Evolution Website and Blog
+- Open Science Foundation
+- Open Science Foundation Reproducibility Checklist
+- BioRxiv
 
 
 # Reality: Common Ground
@@ -384,6 +537,7 @@ intervention and technical knowledge.
 | Cost            | None       | Possible    |  None     | None      | Possible | None    | None               | None                   |
 
 *Adapted from Mislan, Heer & White 2016 Trends in Ecol Evol*
+
 
 
 
