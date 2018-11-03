@@ -24,13 +24,32 @@ header-includes:
 1. Crisis (Baker, big picture, computational focus) (10 min)
 
 - Baker 2015
+- Many sources of irreproducibility
+- Focus on computation
 - Stodden 2018
-- Pasquier, Lau, Trisovic et al. 2017
-- R and The Wild Wild West of Code
-- Analyses should not be a black box
+
 
 2. Opportunities (data and code synthesis) (10 min)
 
+*Motivation*
+- Faster and more efficient analyses
+- Benefaction, not just reproducibility
+- Shifting practices will make it easier to share and access
+  science (Benefaction and Synthesis)
+- Journal policies are shifiting, motivated to make the review process
+easier (Data-PASS)
+
+
+*Tales of Analytical Terror*
+
+- Sharing code via email
+- Versioning via filenames
+- Absolute paths
+
+
+- Pasquier, Lau, Trisovic et al. 2017
+- R and The Wild Wild West of Code
+- Analyses should not be a black box
 - Every script is a perfectly unique snowflake that should be reproducibile
 - Replication + Reproducibility 
 - Transparency in Science
@@ -42,8 +61,23 @@ header-includes:
 3. Tools and resources for improving benefaction not just reproducibility (15 min)
 
 
+*Top Three List* 
 
-*ReproSci Top 10 Checklist*
+1. Learn a programming language 
+- Most popular programming languages
+- Create a replicable, transparent document of data processing and
+analyses
+- Create and access new analytical methods faster
+- End Mouse Finger now! 
+2. Apply a standard project structure and best practices
+- Share more easily
+- More robust projects
+- You'll thank yourself later
+3. Use a version control system
+- Create a fully documented record of all changes (code and data)
+- Easily links to internet based communities
+
+*Making Code More Robust and Transparent*
 
 1. Database your data and Meta-data (open-data)
 2. Provide your code with LICENSE (open-source)
@@ -54,7 +88,7 @@ header-includes:
 7. Create checks (testthat, testdata)
 8. Version control (git, subversion, github)
 9. Continuous integration (Travis, CircleCI)
-10. Create a make file
+10. Create a make file 
 
 - From wet to dry to digital (notes and digitizing records)
 - Version Control for data and code (Git, Github, RStudio)
@@ -69,16 +103,22 @@ header-includes:
 - Leaks in the Pipeline: Not recorded information, pseudo-non-determinism
 - ??? (ROSA, CodeDepends, others)
 
-4. Let the computers do the work! (10 min)
+4. The Future (10 min)
 
-- Software should not limit science, it should enable it.
-- Data Provenance (formalized)
-- Application: Rclean
+- Capsules
+- ReproZip
+- Code Cleaning (RClean)
+- encapsulation
+- data provenance (formalized)
+
 
 5. Take-home, Future Directions and Thanks (5 min)
 
-- Computation will not replace good scientific thought or practice
-- In taking advantage of new tools, we gain a lot if we use them
+Software should not limit science, it should enable it.
+
+Computation will not replace good scientific thought or practice
+
+In taking advantage of new tools, we gain a lot if we use them
 intelligently and get them to do the right things for us
 
 # 
