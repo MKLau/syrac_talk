@@ -1,0 +1,13 @@
+Day	Time	Location	Person	Context	Lab link
+Monday	9:00-9:45	SU LSC 4th floor	Mark Ritchie	Theoretical and grazing ecology	http://ritchielab.syr.edu/
+	9:45-10:30	SU LSC 4th floor	Kari A. Segraves	Coevolution, ecological genetics	http://segraveslab.syr.edu/
+	10:30-11:15	SU LSC 4th floor	David M. Althoff	Coevolution, ecological genetics	http://althofflab.syr.edu/index.html
+	12:00-1:00	SU LSC 106	Talk	Open	
+	1:00-2:00	?	Quick lunch with Jamie	Open	
+	2:00-5:00 (6:00?)	Meet at SUNY-ESF	Tom Horton truffle farm trip	Open	
+	7:00	Red Chili	Dinner with grad students.	Open	
+Tuesday	11:00-11:45	SUNY ESF: Illic 201	Hyatt Green	Environmental microbiologist. Teaches an R class.	https://www.esf.edu/faculty/green/
+	12:00-1:00	?	Quick lunch with Jamie	Open	
+	1:00-1:45	SU LSC 4th floor	Jason Fridley	Plant ecologist, collaborator, Bayesian enthusiast. 	https://sites.google.com/site/fridleylab/home
+	2:00-2:45	SU LSC 4th floor	Katie Becklin	Plant physiology and mycorrhizas	http://thecollege.syr.edu/people/faculty/pages/bio/Becklin-Katie.html
+	?	SU LSC 4th floor	Doug Frank	Soil ecologist and collaborator	http://franklab.syr.edu/
