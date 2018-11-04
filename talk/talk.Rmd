@@ -68,6 +68,7 @@ crisis, be aware of the danger--but recognize the opportunity.”
 *Top Three List* 
 
 1. Learn a programming language 
+- Lost in Translation: Not programming is like speaking through an interpreter
 - Most popular programming languages
 - Create a replicable, transparent document of data processing and
 analyses
