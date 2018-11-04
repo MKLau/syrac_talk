@@ -24,42 +24,46 @@ header-includes:
 1. Crisis (Baker, big picture, computational focus) (10 min)
 
 - Baker 2015
-- Many sources of irreproducibility
+- Sources of irreproducibility
 - Focus on computation
-- Stodden 2018
+- Just providing data is not enough (Stodden 2018)
+- Journal policies are shifiting, motivated to make the review process
+easier (Data-PASS)
+- Crosas, White et al.
+- Statistical motiviation: Being wrong for the right reasons p = 0.05
+- Crisis and opportunity (Kennedy)
+
+![](img/kennedy.jpg)
+
+“The Chinese use two brush strokes to write the word 'crisis.' One
+brush stroke stands for danger; the other for opportunity. In a
+crisis, be aware of the danger--but recognize the opportunity.”
+
+2. Opportunities (10 min)
 
 
-2. Opportunities (data and code synthesis) (10 min)
-
-*Motivation*
-- Faster and more efficient analyses
 - Benefaction, not just reproducibility
 - Shifting practices will make it easier to share and access
   science (Benefaction and Synthesis)
-- Journal policies are shifiting, motivated to make the review process
-easier (Data-PASS)
 
+- BREAK What can we do? (Ostrich)
 
-*Tales of Analytical Terror*
-
-- Sharing code via email
-- Versioning via filenames
-- Absolute paths
-
-
+- Computation is a significant limitation
+- Sources of computational irreproducibility
+- Poisot, Marwick
+- *Tales of Analytical Terror* (Sharing code via email, versioning via
+  filenames, Absolute paths)
 - Pasquier, Lau, Trisovic et al. 2017
-- R and The Wild Wild West of Code
+- R Rube Goldberg and The Wild Wild West of Code
 - Analyses should not be a black box
 - Every script is a perfectly unique snowflake that should be reproducibile
-- Replication + Reproducibility 
-- Transparency in Science
-- Use, Re-use, Benefaction and Synthesis
-- Reviewer/Editorial/Journal Policies
-- "A scientist, a reviewer and an editor walk into a bar..."
-- Crosas, White et al., Poisot, Marwick
 
-3. Tools and resources for improving benefaction not just reproducibility (15 min)
 
+3. Tools and resources for improving benefaction not just reproducibility (10 min)
+
+- BREAK There and back again: A scientists tale
+
+![](thehobbit.jpg)
 
 *Top Three List* 
 
@@ -105,7 +109,14 @@ analyses
 
 4. The Future (10 min)
 
+Easy Pipelines
+
+
+- Workflow Pipeline from Thoughts to Data  to Code to Papers and Back Again
+- Encapsulation -> Code Ocean -> Github -> CircleCI -> Journals
+
 - Capsules
+- Dataverse and Code Ocean
 - ReproZip
 - Code Cleaning (RClean)
 - encapsulation
@@ -114,12 +125,13 @@ analyses
 
 5. Take-home, Future Directions and Thanks (5 min)
 
-Software should not limit science, it should enable it.
-
-Computation will not replace good scientific thought or practice
-
-In taking advantage of new tools, we gain a lot if we use them
+- Software should not limit science, it should enable it.
+- Computation will not replace good scientific thought or practice
+- In taking advantage of new tools, we gain a lot if we use them
 intelligently and get them to do the right things for us
+
+- Reproducibility Resources
+- Acknowledgements
 
 # 
 
